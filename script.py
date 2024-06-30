@@ -28,7 +28,7 @@ def insert_data_from_excel(file_path, session):
 
 
 def main():
-    current_directory = './data_xls'  # Current directory
+    current_directory = './data_xls'  # The directory of the xls,xlsx files
 
     files = list_files(current_directory)
     print("Files in the current directory:", files)
