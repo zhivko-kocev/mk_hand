@@ -6,13 +6,13 @@
 
 ### Description of Files and Directories
 
-- **models/**: Contains all SQLAlchemy models.
+- **models/**: Contains all SQLAlchemy models. There are only two now but more to be added in the next days...
     - `__init__.py`: Dynamically imports all model files.
     - `base.py`: Contains the base class for all models.
     - `lawyer.py`: Example model for lawyer.
     - `legal_clinic.py`: Example model for legal_clinic.
 
-- **data_xls/**: Directory where all Excel files to be imported are stored.
+- **data_xls/**: Directory where all Excel files to be imported are stored. Now it has dummy xls files for testing.
 
 - **config.py**: Contains database configuration details.
 
